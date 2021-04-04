@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["define","skylark","pdfjs","attach"],"mappings":";;;;;;;AAAAA,QACC,wBACA,SACC,SAASC,EAAQC,GAClB,OAAOD,EAAQE,OAAO,aAAaD","file":"../main.js","sourcesContent":["define([\r\n\t\"skylark-langx/skylark\",\r\n\t\"./pdf\"\r\n],function(skylark,pdfjs) {\r\n\treturn skylark.attach(\"intg.pdfjs\",pdfjs);\r\n})"]}
