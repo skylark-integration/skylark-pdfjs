@@ -2957,7 +2957,7 @@ return /******/ (() => { // webpackBootstrap
 
     if (_is_node.isNodeJS && typeof require === "function") {
       isWorkerDisabled = true;
-      fallbackWorkerSrc = "./pdf.worker.js";
+      fallbackWorkerSrc = "./skylark-pdfjs-worker-all.js"; //"./pdf.worker.js";
     } else if (typeof document === "object" && "currentScript" in document) {
       const pdfjsFilePath = document.currentScript && document.currentScript.src; // lwf
 
